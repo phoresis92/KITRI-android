@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_m2" android:title="@string/action_more2"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_m3" android:title="@string/action_more3"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/file" android:title="@string/action1"
+        android:orderInCategory="100" android:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_launcher">
+        <menu>
+            <item android:id="@+id/file_open" android:title="@string/action2"/>
+            <item android:id="@+id/file_save" android:title="@string/action3"/>
+        </menu>
+    </item>
+</menu>

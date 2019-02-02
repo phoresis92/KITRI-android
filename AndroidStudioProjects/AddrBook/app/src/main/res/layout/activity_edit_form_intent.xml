@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".editFormIntent">
+
+    <ImageView
+        android:id="@+id/profileE"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:onClick="onImage"
+        app:srcCompat="@drawable/profile" />
+
+    <Spinner
+        android:id="@+id/spinnerE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nameE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/telE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <Button
+            android:id="@+id/editBtnE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onEditBtn"
+            android:text="EDIT" />
+
+        <Button
+            android:id="@+id/onBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onBack"
+            android:text="BACK" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="red"
+            android:id="@+id/button"
+            android:onClick="changeFragment"
+            android:background="#ffff050c" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="green"
+            android:id="@+id/button2"
+            android:onClick="changeFragment"
+            android:background="#ff07ff0a" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blue"
+            android:id="@+id/button3"
+            android:onClick="changeFragment"
+            android:background="#ff0f16ff" />
+    </LinearLayout>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.usr.app5_7.RedFragment"
+        android:id="@+id/fragment"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

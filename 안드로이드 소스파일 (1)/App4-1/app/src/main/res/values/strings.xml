@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App4-1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_more1">menu item1</string>
+    <string name="action_more2">menu item2</string>
+    <string name="action_more3">menu item3</string>
+    <string name="action1">File</string>
+    <string name="action2">open</string>
+    <string name="action3">save</string>
+</resources>
